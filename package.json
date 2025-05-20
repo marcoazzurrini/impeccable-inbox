@@ -9,10 +9,12 @@
     "start": "vinxi start"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
+    "ultracite": "4.2.5",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "peerDependencies": {
