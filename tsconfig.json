@@ -19,6 +19,12 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "noUnusedParameters": true,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./app/*"
+      ]
+    }
   }
 }
